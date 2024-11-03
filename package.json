@@ -1,0 +1,19 @@
+{
+  "name": "lucky-cart-tech-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.js ./cart-test.json ./criteria-test.json",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^9.2.2",
+    "should": "^13.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
